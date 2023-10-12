@@ -50,9 +50,9 @@ public class UserService {
 
     private void updateData(User entity, User user) {
         // Atualize os campos da entidade com base nos campos do usuário
-        entity.setNome(user.getName());
+        entity.setNome(user.getNome());
         entity.setEmail(user.getEmail());
-        entity.setPhone(user.getPhone());
+        entity.setTelefone(user.getTelefone());
         entity.setPassword(user.getPassword());
     }
 }
